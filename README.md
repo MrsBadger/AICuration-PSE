@@ -25,13 +25,13 @@ Test task for the position of PS Engineer
 
 
 ##### How to run the project using docker
-1. Find [terminal](https://code.visualstudio.com/docs/terminal/basics) in your VSCode
-2. Copy and paste the following command into the terminal, then press enter: `make run`
-3. You can find the results from the link below, just open it in any browser: http://0.0.0.0:8000/analysis
-
-
-##### How to run the project using pipenv
-1. Find [terminal](https://code.visualstudio.com/docs/terminal/basics) in your VSCode
-2. Copy and paste the following command into the terminal, then press enter: `pipenv install`
-3. Copy and paste the following command into the terminal, then press enter: `pipenv run python app/main.py`
+1. Get docker: [documentation link](https://docs.docker.com/get-docker/)
+2. Find [terminal](https://code.visualstudio.com/docs/terminal/basics) in your VSCode
+3. Copy and paste the following command into the terminal, then press enter: `make run`
 4. You can find the results from the link below, just open it in any browser: http://0.0.0.0:8000/analysis
+
+
+##### How to run the project using pipenv (only for advanced users! ❌)
+1. `pipenv install`
+2. `pipenv run python app/main.py`
+3. You can find the results from the link below, just open it in any browser: http://0.0.0.0:8000/analysis
