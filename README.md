@@ -24,9 +24,8 @@ Test task for the position of PS Engineer
 
 
 ##### How to run the project using docker
-1. pipenv install
-2. make run
-3. Find the results in the http://0.0.0.0:8000/analysis
+1. make run
+2. Find the results in the http://0.0.0.0:8000/analysis
 
 
 ##### How to run the project using pipenv

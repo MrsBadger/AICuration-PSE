@@ -14,4 +14,6 @@ build:
 
 run: build
 	docker run -it \
+		--env-file .env \
+		-p 8000:8000 \
 		--name $(PROJECT_NAME) $(PROJECT_NAME)
