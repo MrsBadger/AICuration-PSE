@@ -10,7 +10,6 @@ Test task for the position of PS Engineer
             utils.py
             settings.py
         main.py
-    /tests
     Dockerfile
     Makefile
     Pipfile
