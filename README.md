@@ -3,7 +3,7 @@ Test task for the position of PS Engineer
 
 ---
 
-##### Project structure:
+##### Project structure
     /app
         /core
             app.py
