@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.10
 
 WORKDIR /app
 
@@ -6,11 +6,9 @@ WORKDIR /app
 RUN python3 -m ensurepip --upgrade
 RUN pip install pipenv
 
-# Copy Pipfile and Pipfile.lock (if present)
-COPY Pipfile Pipfile.lock ./
-
 # Install dependencies using Pipenv
-RUN pipenv install --deploy-dev
+COPY Pipfile Pipfile.lock ./
+RUN pipenv install --deploy --system
 
 COPY . .
 
